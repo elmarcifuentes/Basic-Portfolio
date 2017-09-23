@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+
+ }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom-style: groove;
+	overflow: auto;
+
+}
+
+.name {
+	padding: 40px;
+	float: left;
+
+}
+
+nav {
+	padding: 40px;
+	float: right;
+}
+
+section {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	width: 650px;
+	float: left;
+
+}
+
+.bio-text {
+	line-height: 40px;
+	color: #777777;
+
+}
+
+.bio-image {
+	display: block;
+	margin-right: 40px;
+}
+
+
+aside {
+	width: 270px;
+	float: right;
+
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #777777;
+
+}
+
+.clear {
+	clear: both;
+}
