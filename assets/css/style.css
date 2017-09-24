@@ -5,11 +5,19 @@
 
  body {
  	background-image: url("../images/concrete_seamless.png");
+
+ }
+
+ header {
+ 	width: 960px;
+  	margin: 0 auto;
+
  }
 
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  min-height: calc(80vh - 70px);
 
 }
 
@@ -65,11 +73,13 @@ p {
 h1 {
 	color: #4aaaa5;
 	font-size: 30px;
+	
 } 
 
 h2 {
 	color: #4aaaa5;
 	font-size: 25px;
+
 }
 
 .bio-text {
@@ -81,6 +91,7 @@ h2 {
 .bio-image {
 	display: block;
 	margin-right: 40px;
+	margin-top: 20px;
 }
 
 
@@ -94,6 +105,11 @@ aside {
 	text-align: center;
 	margin-top: 40px;
 	padding: 20px;
+
+}
+
+.profile-images {
+	margin-top: 20px;
 
 }
 
